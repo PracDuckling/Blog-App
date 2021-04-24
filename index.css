@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom .3s;
+}
+
+h1:hover {
+    border-bottom: 3px solid olivedrab;
+}
+
+#click {
+    margin: 0 auto;
+    width: fit-content;
+    outline: none;
+    border: 3px solid #ffe484;
+    color: #ffe484;
+    background-color: #6610f2;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all .3s;
+}
+
+#click:hover {
+    color: #6610f2;
+    background-color: #ffe484;
+}
